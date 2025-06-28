@@ -25,10 +25,10 @@ const Navbar = () => {
           <Link to="/" className="flex items-center space-x-3">
             <img 
               src="/lovable-uploads/f55b0fed-5081-47c0-88b4-f38283adfa7c.png" 
-              alt="AlgoBees Logo" 
+              alt="Algobees Logo" 
               className="w-10 h-10"
             />
-            <span className="text-xl font-semibold text-bee-dark">AlgoBees</span>
+            <span className="text-xl font-semibold text-bee-dark">Algobees</span>
           </Link>
 
           {/* Desktop Navigation */}
