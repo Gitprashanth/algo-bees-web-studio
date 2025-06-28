@@ -201,7 +201,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-bee-dark mb-1">Phone</h3>
-                    <p className="text-gray-600">+1 (555) 123-BEES</p>
+                    <p className="text-gray-600">+1 (226) 757-4940</p>
                   </div>
                 </div>
 
@@ -211,7 +211,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-bee-dark mb-1">Global Online</h3>
-                    <p className="text-gray-600">Teaching kids worldwide from our headquarters in San Francisco, CA</p>
+                    <p className="text-gray-600">Teaching kids worldwide from our headquarters in Toronto, Canada</p>
                   </div>
                 </div>
 
@@ -221,7 +221,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-bee-dark mb-1">Support Hours</h3>
-                    <p className="text-gray-600">Monday - Friday: 9AM - 6PM PST<br />Saturday: 10AM - 4PM PST</p>
+                    <p className="text-gray-600">Monday - Friday: 9AM - 6PM EST<br />Saturday: 10AM - 4PM EST</p>
                   </div>
                 </div>
               </div>
