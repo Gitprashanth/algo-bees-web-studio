@@ -22,10 +22,12 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-bee-yellow rounded-lg flex items-center justify-center">
-              <span className="text-bee-dark font-bold text-lg">🐝</span>
-            </div>
+          <Link to="/" className="flex items-center space-x-3">
+            <img 
+              src="/lovable-uploads/f55b0fed-5081-47c0-88b4-f38283adfa7c.png" 
+              alt="AlgoBees Logo" 
+              className="w-10 h-10"
+            />
             <span className="text-xl font-semibold text-bee-dark">AlgoBees</span>
           </Link>
 

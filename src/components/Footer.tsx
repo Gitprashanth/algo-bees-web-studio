@@ -43,10 +43,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Column 1: Logo + Slogan */}
           <div className="space-y-4">
-            <Link to="/" className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-bee-yellow rounded-lg flex items-center justify-center">
-                <span className="text-bee-dark font-bold text-lg">🐝</span>
-              </div>
+            <Link to="/" className="flex items-center space-x-3">
+              <img 
+                src="/lovable-uploads/f55b0fed-5081-47c0-88b4-f38283adfa7c.png" 
+                alt="AlgoBees Logo" 
+                className="w-10 h-10"
+              />
               <span className="text-xl font-semibold text-bee-dark">AlgoBees</span>
             </Link>
             <p className="text-gray-600 text-sm max-w-xs">
