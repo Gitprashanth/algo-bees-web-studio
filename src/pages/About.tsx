@@ -1,29 +1,30 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Award, Heart, Users, Globe } from "lucide-react";
 
 const instructors = [
   {
-    name: "Dr. Sarah Mitchell",
-    role: "Lead Python Instructor",
+    name: "Shabarish Chinta",
+    role: "Python Instructor",
     bio: "Former Google engineer with 8 years of experience teaching kids. Specializes in making complex concepts simple and fun.",
-    avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=400&fit=crop&crop=face",
+    avatar: "/lovable-uploads/Shabarish.jpeg", // changed to local image
     specialties: ["Python", "Machine Learning", "Game Development"]
   },
   {
-    name: "Alex Chen",
-    role: "Creative Computing Director", 
-    bio: "MIT graduate who believes every child can be a creator. Expert in Scratch and visual programming languages.",
-    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
-    specialties: ["Scratch", "Creative Coding", "Animation"]
+    name: "Srilekha",
+    role: "Senior Coding Instructor", 
+    bio: "Full-stack developer and former teacher who loves helping teens build their first websites and apps.",
+    avatar: "/lovable-uploads/Srilekha.jpeg", // changed to local image
+    specialties: ["HTML/CSS", "JavaScript", "React"]
+
   },
   {
-    name: "Maria Rodriguez",
-    role: "Web Development Coach",
-    bio: "Full-stack developer and former teacher who loves helping teens build their first websites and apps.",
-    avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face", 
-    specialties: ["HTML/CSS", "JavaScript", "React"]
+    name: "Divya Jaini",
+    role: "Python and Scratch Instructor",
+    bio: "MIT graduate who believes every child can be a creator. Expert in Scratch and visual programming languages.",
+    avatar: "/lovable-uploads/Divya.jpeg", 
+    specialties: ["Scratch", "Creative Coding", "Animation"]
+
   }
 ];
 
